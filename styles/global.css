@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+
+    box-sizing: border-box;
+
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+
+}
+
+:root {
+/*   
+    font-family: "Sora", sans-serif;
+    font-family: "Roboto Mono", monospace;
+    font-family: "Inter", sans-serif;
+    font-family: "Roboto Flex", sans-serif;
+*/
+}
+
+html {
+}
+
+body {
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
