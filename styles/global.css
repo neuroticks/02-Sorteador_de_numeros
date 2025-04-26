@@ -35,25 +35,32 @@
     --ff-inter: "Inter", sans-serif;
     --ff-rob-flex: "Roboto Flex", sans-serif;
 
-    --font-display-large: ExtraBold 4.5rem/1.3 var(--ff-sora); /*uppercase*/
-    --font-display-medium: ExtraBold 2.5rem/1.3 var(--ff-sora); /*uppercase*/
-    --font-display-small: Bold 2rem/1.3 var(--ff-sora); /*uppercase*/
+    --font-logo: 800 1.5rem/1.3 var(--ff-sora); /*uppercase*/
+    --font-display-large: 800 4.5rem/1.3 var(--ff-sora); /*uppercase*/
+    --font-display-medium: 800 2.5rem/1.3 var(--ff-sora); /*uppercase*/
+    --font-display-small: 700 2rem/1.3 var(--ff-sora); /*uppercase*/
 
-    --font-overline: Bold 1rem/1.5 var(--ff-rob-mono);/*uppercase*/
+    --font-overline: 700 1rem/1.5 var(--ff-rob-mono);/*uppercase*/
 
-    --font-toggle-repetir: Regular 0.75rem/1.5 var(--ff-inter);
+    --font-toggle-repetir: 400 0.75rem/1.5 var(--ff-inter);
 
-    --font-paragraph-large: medium 1rem/1.5 var(--ff-rob-flex);
-    --font-paragraph-medium: medium 0.875rem/1.5 var(--ff-rob-flex);
-    --font-paragraph-small: medium 0.75rem/1.5 var(--ff-rob-flex);
-    --font-label-medium: Bold 1.25rem/1.5 var(--ff-rob-flex);
-    --font-label-small: Bold 1rem/1.5 var(--ff-rob-flex);
+    --font-paragraph-large: 500 1rem/1.5 var(--ff-rob-flex);
+    --font-paragraph-medium: 500 0.875rem/1.5 var(--ff-rob-flex);
+    --font-paragraph-small: 500 0.75rem/1.5 var(--ff-rob-flex);
+    --font-label-large: 700 1.25rem/1.5 var(--ff-rob-flex);
+    --font-label-medium: 700 1rem/1.5 var(--ff-rob-flex);
 
 }
 
 html {}
 
-body {}
+body {
+
+    /* outline: 1px solid lime; */
+
+    background-color: var(--color-background-primary);
+    color: var(--color-content-primary);
+}
 
 a {
     text-decoration: none;

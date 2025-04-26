@@ -1,0 +1,26 @@
+@import url(./fields/input.css);
+@import url(./fields/checkbox.css);
+@import url(./fields/button.css);
+
+main {
+    display: grid;
+    gap: 2.5rem;
+  
+    margin-top: 2.5rem;
+
+    & .texto {
+        span {
+            font: var(--font-label-large);
+            text-transform: uppercase;
+        }
+        p {
+            font: var(--font-paragraph-medium);
+            color: var(--color-content-tertiary);
+        }
+    }
+
+    & form {
+        display: grid;
+        gap: 1.25rem;
+    }
+}

@@ -1,0 +1,26 @@
+footer {
+    display: grid;
+    gap: 2.25rem;
+
+    margin-top: 5rem;
+
+    & .questao {
+        display: flex;
+        align-items: start;
+        gap: .5rem;
+
+        /* text-align: justify; */
+
+        & .texto {
+            span {
+                font: var(--font-paragraph-medium);
+                color: var(--color-content-brand);
+            }
+
+            p {
+                font: var(--font-paragraph-small);
+                color: var(--color-content-secondary);
+            }
+        }
+    } 
+}

@@ -1,0 +1,23 @@
+header {
+    display: grid;
+    gap: .5rem;
+    
+    & span {
+        align-items: center;
+        
+        font: var(--font-overline);
+        color: transparent;
+        text-transform: uppercase;
+
+        background: var(--color-gradient-content);
+
+        -webkit-background-clip: text;
+        background-clip: text;
+    }
+
+    & p {
+        font: var(--font-display-medium);
+        text-transform: uppercase;
+        letter-spacing: -.4;
+    }
+}

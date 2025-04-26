@@ -1,0 +1,18 @@
+button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: .5rem;
+
+    padding: 1rem 1rem;
+
+    background-color: var(--color-background-tertiary);
+
+    font: var(--font-label-medium);
+    color: var(--color-content-primary);
+    text-transform: uppercase;
+
+    border-radius: .5rem;
+    outline: none;
+    border: none;
+}

@@ -7,12 +7,13 @@
 
     min-width: 18rem;
     max-width: 35rem;
-    width: 90%;
+    width: 80%;
 
 }
 
 /* 
 a partir de:
+ 288px = 18rem
  400px = 25rem
  420px = 26.25rem
  480px = 30rem
@@ -29,6 +30,6 @@ a partir de:
 
         /* min-width: 64rem; */
         max-width: 35rem;
-        width: 90%;
+        width: 80%;
     }
 }
