@@ -21,70 +21,72 @@
 </head>
 
 <body>
-    <div class="container logo">
-        <img src="assets/logo.svg" alt="logo do site">
-        <strong>NUMBERS</strong>
-    </div>
-    <header class="container">
-        <span>online - gratuito</span>
-        <p>sorteador<br>de números</p>
-    </header>
-    <main class="container form">
-        <div class="texto">
-            <span>quero sortear:</span>
-            <p>Defina o intervalo e a quantidade de números,
-                clique em "Sortear" e veja os resultados na tela.
-                É rápido e fácil!
-            </p>
+    <div class="app-container">
+        <div class="logo">
+            <img src="assets/logo.svg" alt="logo do site">
+            <strong>NUMBERS</strong>
         </div>
-        <form action="">
-            <div class="inputs">
-                <div class="input-wrapper">
-                    <label for="qtd-sortear">números</label>
-                    <input type="text" id="qtd-sortear" name="qtd-sortear" placeholder="2">
-                </div>
-                <div class="input-wrapper">
-                    <label for="ini-gerar">de</label>
-                    <input type="text" id="ini-gerar" name="ini-gerar" placeholder="1">
-                </div>
-                <div class="input-wrapper">
-                    <label for="fim-gerar">até</label>
-                    <input type="text" id="fim-gerar" name="fim-gerar" placeholder="100">
-                </div>
+        <header class="">
+            <span>online - gratuito</span>
+            <h1>sorteador<br>de números</h1>
+        </header>
+        <main class="form">
+            <div class="texto">
+                <span>quero sortear:</span>
+                <p>Defina o intervalo e a quantidade de números,
+                    clique em "Sortear" e veja os resultados na tela.
+                    É rápido e fácil!
+                </p>
             </div>
-            <div class="bgcolor-wrapper">
-                <div class="check-label">
-                    <div class="checkbox-wrapper">
-                        <input type="checkbox" id="nao-repetir" name="nao-repetir" checked>
-                        <span class="checkbox-slider"></span>
+            <form action="">
+                <div class="inputs">
+                    <div class="input-wrapper">
+                        <label for="qtd-sortear">números</label>
+                        <input type="text" id="qtd-sortear" name="qtd-sortear" placeholder="2">
                     </div>
-                    <label for="nao-repetir">
-                        Não repetir número
-                    </label>
+                    <div class="input-wrapper">
+                        <label for="ini-gerar">de</label>
+                        <input type="text" id="ini-gerar" name="ini-gerar" placeholder="1">
+                    </div>
+                    <div class="input-wrapper">
+                        <label for="fim-gerar">até</label>
+                        <input type="text" id="fim-gerar" name="fim-gerar" placeholder="100">
+                    </div>
+                </div>
+                <div class="bgcolor-wrapper">
+                    <div class="check-label">
+                        <div class="checkbox-wrapper">
+                            <input type="checkbox" id="nao-repetir" name="nao-repetir" checked>
+                            <span class="checkbox-slider"></span>
+                        </div>
+                        <label for="nao-repetir">
+                            Não repetir número
+                        </label>
+                    </div>
+                </div>
+                <button type="submit">
+                    sortear
+                    <img src="assets/icons/seta.svg" alt="">
+                </button>
+            </form>
+        </main>
+        <footer class="">
+            <div class="questao">
+                <img src="assets/icons/question.svg" alt="">
+                <div class="texto">
+                    <span>Como funciona o sorteador de números?</span>
+                    <p>O sorteador utiliza um algoritmo de geração aleatória para criar números dentro do intervalo
+                        especificado pelo usuário.</p>
                 </div>
             </div>
-            <button type="submit">
-                sortear
-                <img src="assets/icons/seta.svg" alt="">
-            </button>
-        </form>
-    </main>
-    <footer class="container">
-        <div class="questao">
-            <img src="assets/icons/question.svg" alt="">
-            <div class="texto">
-                <span>Como funciona o sorteador de números?</span>
-                <p>O sorteador utiliza um algoritmo de geração aleatória para criar números dentro do intervalo
-                    especificado pelo usuário.</p>
+            <div class="questao">
+                <img src="assets/icons/question.svg" alt="">
+                <div class="texto">
+                    <span>Posso escolher o intervalo dos números?</span>
+                    <p>Sim, você pode definir os valores mínimo e máximo para o intervalo dos números sorteados.</p>
+                </div>
             </div>
-        </div>
-        <div class="questao">
-            <img src="assets/icons/question.svg" alt="">
-            <div class="texto">
-                <span>Posso escolher o intervalo dos números?</span>
-                <p>Sim, você pode definir os valores mínimo e máximo para o intervalo dos números sorteados.</p>
-            </div>
-        </div>
+    </div>
     </footer>
     <script src="script.js"></script>
 </body>

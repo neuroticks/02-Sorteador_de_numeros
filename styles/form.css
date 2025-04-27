@@ -3,6 +3,9 @@
 @import url(./fields/button.css);
 
 main {
+    grid-area: main;
+    align-self: start;
+
     display: grid;
     gap: 2.5rem;
   
@@ -22,5 +25,11 @@ main {
     & form {
         display: grid;
         gap: 1.25rem;
+    }
+}
+
+@media (min-width: 54rem) {
+    main {
+        margin: 0;
     }
 }

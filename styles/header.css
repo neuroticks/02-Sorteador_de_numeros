@@ -1,5 +1,8 @@
 header {
-    display: grid;
+    grid-area: header;
+    align-self: start;
+
+    /* display: grid; */
     gap: .5rem;
     
     & span {
@@ -15,7 +18,7 @@ header {
         background-clip: text;
     }
 
-    & p {
+    & h1 {
         font: var(--font-display-medium);
         text-transform: uppercase;
         letter-spacing: -.4;
