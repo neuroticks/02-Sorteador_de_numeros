@@ -8,23 +8,24 @@ main {
 
     display: grid;
     gap: 2.5rem;
-  
-    margin-top: 2.5rem;
 
-    & .texto {
-        span {
-            font: var(--font-label-large);
-            text-transform: uppercase;
-        }
-        p {
-            font: var(--font-paragraph-medium);
-            color: var(--color-content-tertiary);
-        }
-    }
+    margin-top: 2.5rem;
 
     & form {
         display: grid;
         gap: 1.25rem;
+
+        & .intro {
+            span {
+                font: var(--font-label-large);
+                text-transform: uppercase;
+            }
+
+            p {
+                font: var(--font-paragraph-medium);
+                color: var(--color-content-tertiary);
+            }
+        }
     }
 }
 
