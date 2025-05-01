@@ -1,18 +1,24 @@
 .error {
-    grid-area: erro;
+    position: fixed;
+    z-index: 1000;
 
-    margin-top: 3rem;
-    padding: .75rem;
+    top: 20px;
+    left: 50%;
 
+    width: 80%;
+    max-width: 100%;
+
+    transform: translateX(-50%);
+    
     border: 1px solid silver;
     border-radius: .8rem;
-
-    background-color: rgb(255, 71, 71);
-
+    
+    background-color: #FFEBEE;
+    
     font: var(--font-paragraph-large);
-
-    width: 100%;
-
+    color: #D32F2F;
+    
+    padding: .75rem;
     /* inicialmente invisível */
     opacity: 0;
     /* Também remove da árvore de acessibilidade */
