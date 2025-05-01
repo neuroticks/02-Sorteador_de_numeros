@@ -6,7 +6,7 @@
     justify-content: center;
     gap: .875rem;
 
-    padding-block: 2.75rem;
+    padding-bottom: 2.75rem;
     
     & strong {
         font: var(--font-logo);

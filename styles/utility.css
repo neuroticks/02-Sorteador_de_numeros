@@ -26,6 +26,7 @@ a partir de:
     .app-container {
         display: grid;
         grid-template-areas:
+            "erro erro"
             "logo logo"
             "header main"
             "footer main";

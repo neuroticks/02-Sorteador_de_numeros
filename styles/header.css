@@ -4,6 +4,8 @@ header {
 
     /* display: grid; */
     gap: .5rem;
+
+    margin-bottom: 2.5rem;
     
     & span {
         align-items: center;

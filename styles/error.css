@@ -1,0 +1,41 @@
+.error {
+    grid-area: erro;
+
+    margin-top: 3rem;
+    padding: .75rem;
+
+    border: 1px solid silver;
+    border-radius: .8rem;
+
+    background-color: rgb(255, 71, 71);
+
+    font: var(--font-paragraph-large);
+
+    width: 100%;
+
+    /* inicialmente invisível */
+    opacity: 0;
+    /* Também remove da árvore de acessibilidade */
+    visibility: hidden;
+    /* Transição suave */
+    transition: opacity 1s ease,
+    visibility 1s;
+
+    &.show {
+        /* Torna visível */
+        opacity: 1;
+        /* Mostra o elemento */
+        visibility: visible;
+        /* Transição ao aparecer */
+        transition: opacity 1s ease, visibility 0s;
+    }
+
+    &.hide {
+        /* Torna visível */
+        opacity: 0;
+        /* Mostra o elemento */
+        visibility: hidden;
+        /* Transição ao aparecer */
+        transition: opacity 8s ease, visibility 5s;
+    }
+}
